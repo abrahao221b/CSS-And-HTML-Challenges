@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(44, 44, 44);
+    margin: 0;
+}
+
+header {
+    padding: 30px;
+   
+}
+
+
+header div h1 {
+    padding: 30px;
+    background-color: rgb(37, 37, 37);
+    text-align: center;
+    font-weight: bolder;
+    text-decoration: underline;
+    color: chocolate;
+}
+
+header div a {
+    padding: 30px;
+    
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+
+    text-align: left;
+    text-decoration: none;
+    font-weight: bolder;
+    color: azure;
+      
+    margin-right: 80vw;
+}
+
+header div a:hover {
+    color: #fd91919d;
+    transition: color 400ms;
+}
+
